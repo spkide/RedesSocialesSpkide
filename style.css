@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.barra-top{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+}
+
+.presentacion h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: black;
+    margin: 20px 0;
+}
+
+.presentacion img{
+    border-radius: 80px;
+}
+
+.enlaces{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px 45px;
+    gap: 30px;
+}
+
+.enlaces img{
+    content: '';
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    bottom: 0;
+    top: 0;
+}
+
+.enlaces img:hover{
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.5s ease 0.3s; 
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: black;
+}
+
+.Enlaces-2{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-content: center;
+    flex-direction: column;
+}
+
+.Enlaces-2 img{
+    content: '';
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 35%;
+    border-radius: 30px;
+    height: 96px;
+    width: 96px;
+    bottom: 0;
+    top: 0;
+}
+
+.Enlaces-2 h1{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    margin-top: -7vh;
+    font-size: 1.5em;
+}
+
+
+.Enlaces-2 a{
+    text-decoration: none;
+    color: black;
+}
